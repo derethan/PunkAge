@@ -1,4 +1,6 @@
-# PunkAge
+# PunkAge Web Interface
 Welcome
 
-This is the PunkAge Server Web Interface. This will be used for Server And account administration tools and possibly more over time.
+This is the Web Interface for the PunkAge Edition of Archage.
+
+This Project supports the account management for the PunkAge Players.
