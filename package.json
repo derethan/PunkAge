@@ -2,10 +2,19 @@
   "name": "archeage_unlocked",
   "version": "1.0.0",
   "description": "ArchAge Web Interface",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "nodemon js/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andrew Patterson, Brad Swackhamer, James Benedict",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.0.1"
+  }
 }
