@@ -2,17 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>PunkAge</title>
+    <title>{{page_Title}}</title>
 
-    <link rel="stylesheet" href="css/style.css">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="icon" type="image/ico" href="img/favicon.ico">
+
+
 </head>
 
 <body>
     <div class="container">
+
         <h1>PunkAge Account Login</h1>
+
         <form action="/login" method="POST">
             <div class="form-group">
                 <label for="username">Username:</label>
@@ -24,18 +32,29 @@
             </div>
             <button type="submit" class="btn">Login</button>
         </form>
-        <p>Don't have an account? <a href="registration.html">Register here</a></p>
+
+        <p>Don't have an account? <a href="/register">Register here</a></p>
+
     </div>
+
 
 
     <footer>
         <div class="footer">
                 <div class="footer-about">
                     <p>
-                        PunkAge is a website created by the <a href="#">PunkAge Team</a>. This website is not intended to be used for any commercial or non-commercial
-                        purposes.
+                        Website created by the <a href="#">PunkAge Team</a>. 
+                        This website is not intended to be used for any commercial purposes.
                     </p>
                 </div>
+
+                <div class="footer-links">
+                    <a href="/">Home</a>
+                    <a href="/account">Account</a>
+                    <a href="/char">Characters</a>
+                    <a href="/logout">Logout</a>
+                </div>
+                
         </div>
     </footer>
     

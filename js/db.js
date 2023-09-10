@@ -1,13 +1,3 @@
-// Import Dependencies
-
-const express = require('express');
-const dotenv = require('dotenv');
-
-const app = express(); // Initialize express
-
-// Configure dotenv
-dotenv.config({ path: './.env' });
-
 //import mysql module
 const mysql = require('mysql2');
 
@@ -31,3 +21,6 @@ db_con.connect((err) => {
         console.log("Database Connected");
     }
 });
+
+//export connection
+module.exports = db_con;

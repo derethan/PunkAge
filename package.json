@@ -4,7 +4,7 @@
   "description": "ArchAge Web Interface",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon js/app.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andrew Patterson, Brad Swackhamer, James Benedict",
@@ -14,7 +14,9 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "hbs": "^4.2.0",
+    "jsonwebtoken": "^9.0.2",
     "mysql": "^2.18.1",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "util": "^0.12.5"
   }
 }
