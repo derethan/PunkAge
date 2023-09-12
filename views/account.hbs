@@ -18,29 +18,36 @@
 
 <body>
     <div class="container">
+        <div class="container-title">
+        <h1>PunkAge account management</h1>
+        <p>Here you can access account management and charactor information for your PunkAge Account.</p>
+        </div>
 
-        <h1>PunkAge Account Login</h1>
+        <div class="container-content">
+            <h2>Manage your account below</h2>
 
-        <form action="/auth/login" method="POST">
-            <div class="form-group">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
+            <div class="container-content-link">
+               <h2>Change Password: </h2></a>
+
+
             </div>
-            <div class="form-group">
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <button type="submit" value="login" class="btn">Login</button>
-        </form>
 
-        <p>Don't have an account? <a href="/register">Register here</a></p>
+            <div class="container-content-link">
+                <div class="form-group">
+                <form action="/auth/change_password" method="POST">
+                    <input type="password" name="password" placeholder="New Password" required>
+                    <input type="password" name="password_confirm" placeholder="Confirm Password" required>
+                    <input type="submit" value="Change Password">
+                </form>
+                </div>
+            </div>
+        </div>
 
         {{#if message }}
             <h4>{{message}}</h4>
         {{/if}}
 
     </div>
-
 
 
     <footer>

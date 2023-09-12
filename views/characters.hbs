@@ -18,29 +18,16 @@
 
 <body>
     <div class="container">
+        <div class="container-title">
+        <h1>Character management</h1>
+        <p>Character management coming soon...</p>
+        </div>
 
-        <h1>PunkAge Account Login</h1>
+        <div class="container-content">  
 
-        <form action="/auth/login" method="POST">
-            <div class="form-group">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <button type="submit" value="login" class="btn">Login</button>
-        </form>
-
-        <p>Don't have an account? <a href="/register">Register here</a></p>
-
-        {{#if message }}
-            <h4>{{message}}</h4>
-        {{/if}}
+        </div>
 
     </div>
-
 
 
     <footer>

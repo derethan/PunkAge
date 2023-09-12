@@ -1,7 +1,7 @@
 {
-  "name": "archeage_unlocked",
+  "name": "punkage",
   "version": "1.0.0",
-  "description": "ArchAge Web Interface",
+  "description": "PunkAge Web Interface",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
@@ -13,10 +13,14 @@
     "bcryptjs": "^2.4.3",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "express-mysql-session": "^3.0.0",
+    "express-session": "^1.17.3",
     "hbs": "^4.2.0",
     "jsonwebtoken": "^9.0.2",
     "mysql": "^2.18.1",
+    "mysql2": "^3.6.1",
     "nodemon": "^3.0.1",
+    "request-ip": "^3.3.0",
     "util": "^0.12.5"
   }
 }
